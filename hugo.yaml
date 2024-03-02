@@ -22,9 +22,9 @@ menu:
 params:
   author: gouuyh
   description: A description
-  avatar: /static/avatar.webp
+  avatar: /profile/avatar.webp
   menu_item_separator: ' - '
-  favicon: /static/favicon.ico
+  favicon: /profile/favicon.ico
   social:
     - icon: github
       name: GitHub

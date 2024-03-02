@@ -1,0 +1,6 @@
+/public/
+/resources/
+/content/drafts/
+/.obsidian/
+.hugo_build.lock
+

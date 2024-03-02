@@ -1,0 +1,35 @@
+baseURL: "https://gouuyh.giyhub.io"
+languageCode: "zh-cn"
+defaultContentLanguage: zh-cn
+title: "gouuyh's Blog"
+theme: "m10c"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+
+params:
+  author: gouuyh
+  description: A description
+  avatar: /static/avatar.webp
+  menu_item_separator: ' - '
+  favicon: /static/favicon.ico
+  social:
+    - icon: github
+      name: GitHub
+      url: https://github.com/gouuyh
+
+permalinks:
+    post: /posts/:year/:slug/
+    page: /:slug/

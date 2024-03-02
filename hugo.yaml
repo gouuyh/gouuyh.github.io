@@ -29,6 +29,9 @@ params:
     - icon: github
       name: GitHub
       url: https://github.com/gouuyh
+    - icon: rss
+      name: RSS
+      url: https://gouuyh.giyhub.io/index.xml
 
 permalinks:
     post: /posts/:year/:slug/

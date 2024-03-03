@@ -32,6 +32,13 @@ params:
     - icon: rss
       name: RSS
       url: https://gouuyh.giyhub.io/index.xml
+  enableGitalk: true
+  gitalk:
+    clientID: 6b6d1fcb86ac24185754
+    clientSecret: dfb2d260c435e164394d398057bd3640a258340d
+    repo: gouuyh.github.io
+    owner: gouuyh
+    admin: gouuyh
 
 permalinks:
     post: /posts/:year/:slug/
@@ -41,7 +48,6 @@ markup:
   highlight:
     codeFences: true
     guessSyntax: false
-    hl_Lines: ""
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true

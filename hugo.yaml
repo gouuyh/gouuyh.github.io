@@ -36,3 +36,23 @@ params:
 permalinks:
     post: /posts/:year/:slug/
     page: /:slug/
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  goldmark:
+    extensions:
+      typographer: false
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: true
+buildFuture: true

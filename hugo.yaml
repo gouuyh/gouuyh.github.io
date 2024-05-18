@@ -7,21 +7,22 @@ theme: "m10c"
 menu:
   main:
     - identifier: home
-      name: Home
+      name: 首页
       url: /
       weight: 1
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 2
     - identifier: about
-      name: About
+      name: 关于
       url: /about/
       weight: 3
 
 params:
   author: gouuyh
-  description: A description
+  description: あたしが愛を語るのなら
+  description2: その眼には如何、映像る？
   avatar: /profile/avatar.webp
   menu_item_separator: ' - '
   favicon: /profile/favicon.ico
@@ -55,6 +56,8 @@ markup:
     style: monokai
     tabWidth: 4
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       typographer: false
 minify:

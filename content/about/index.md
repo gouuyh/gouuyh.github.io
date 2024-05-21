@@ -6,7 +6,7 @@ update: "2021-08-23"
 draft: false
 ---
 
-这里是Go Uuyh的博客。在这里，我想记录自己想分享出来的知识与心得。
+这里是<ruby>時夜吉羽<rt>gouuyh</rt></ruby>的博客。在这里，我想记录自己想分享出来的知识与心得。
 
 本博客的主要内容大致为：
 - 以Arch Linux为例的Linux使用

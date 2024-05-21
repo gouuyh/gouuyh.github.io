@@ -31,6 +31,12 @@ body {
     display: block;
 }
 
+.post-content th, td, tr {
+    border: 1pt solid;
+    border-color: #afbac4;
+    padding: 2pt;
+}
+
 /* 
  * 放置于这里的CSS将应用于所有皮肤
  * 萌娘百科仅开放Vector皮肤

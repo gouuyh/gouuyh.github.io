@@ -14,11 +14,23 @@ body {
   font-weight: 600;
 }
 
+.post-meta {
+    margin-bottom: 15px;
+}
+
+.post-footer {
+    margin-top: 15px;
+}
+
 .post-content p {
     text-indent: 2em;
     margin-top: 0;
     margin-bottom: 0;
     display: block;
+}
+
+.post-content h4, h5, h6 {
+    margin: 0;
 }
 
 .post-content b {
@@ -35,6 +47,22 @@ body {
     border: 1pt solid;
     border-color: #afbac4;
     padding: 2pt;
+}
+
+.post-content table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content img {
+    display: block;
+    text-indent: 0;
+    width: 62%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* 
